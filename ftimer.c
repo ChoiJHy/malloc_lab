@@ -9,7 +9,8 @@
  *    ftimer_gettod: version that uses gettimeofday
  */
 #include <stdio.h>
-#include <sys/time.h>
+//#include <sys/time.h>
+#include <time.h>
 #include "ftimer.h"
 
 /* function prototypes */
